@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GT-Haptik-Bold';
+    src: url('./assets/fonts/GT-Haptik-Bold.ttf') format('ttf'),
+         url('./assets/fonts/GT-Haptik-Bold.woff') format('woff'),
+         url('./assets/fonts/GT-Haptik-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GT-Haptik-Bold', sans-serif;
+}
+
+
+
+.contentWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
