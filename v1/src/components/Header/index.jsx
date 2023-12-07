@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { CgArrowLongRight } from "react-icons/cg";
 import WaveEffect from './wave';
+import ContentWrapper from '../ContentWrapper';
 
 
 
@@ -10,7 +11,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className='contentWrapper'>
+        <ContentWrapper>
           <nav>
             <div className='logo-main-wrap'>
               {/* <img src='' alt="ahsan" /> */}
@@ -30,13 +31,11 @@ const Header = () => {
           </nav>
 
           <h2>WORK Coast Brandmakers <br/> with a global edge</h2>
-
-        </div>
-
+        </ContentWrapper>
+         <WaveEffect />
       </header>
-      <WaveEffect />
     </>
   )
 }
 
-export default Header
+export default Header;

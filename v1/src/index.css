@@ -13,6 +13,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Gt-Haptik-Medium";
+    src: url("./assets/fonts/GT-Haptik-Regular.ttf") format('ttf'),
+         url('./assets/fonts/GT-Haptik-Regular.woff') format('woff'),
+         url('./assets/fonts/GT-Haptik-Regular.woff2') format('woff2');
+}
+
 body {
     font-family: 'GT-Haptik-Bold', sans-serif;
 }
@@ -21,7 +28,7 @@ body {
 
 .contentWrapper {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 0 20px;
 }
