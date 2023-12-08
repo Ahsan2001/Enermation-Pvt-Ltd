@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="hover-effects">
-                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+                    <svg xmlns="http://www.w3.org/2000/svg" shapeRendering="geometricPrecision">
                         <defs>
                             <filter id="waterTexture" >
                                 <feTurbulence result="undulation" numOctaves="1" baseFrequency="0" seed="0" type="turbulence">

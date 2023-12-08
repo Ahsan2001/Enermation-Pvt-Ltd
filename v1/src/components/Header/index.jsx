@@ -30,7 +30,7 @@ const Header = () => {
             </div>
           </nav>
 
-          <h2>WORK Coast Brandmakers <br/> with a global edge</h2>
+          <h2>West Coast Brandmakers <br/> with a global edge.</h2>
         </ContentWrapper>
          <WaveEffect />
       </header>
