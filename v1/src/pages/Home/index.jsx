@@ -1,9 +1,10 @@
 import React from 'react';
-import { Layout } from '../../components';
+import { Contact, Layout } from '../../components';
 import Subscription from './subscription';
 import Projects from './projects';
 import Specialized from './specialized';
 import Brands from './brands';
+import NewsAndInsights from './news-&-insight';
 
 const Home = () => {
     return (
@@ -14,6 +15,8 @@ const Home = () => {
           <Projects />
           <Specialized />
           <Brands />
+          <Contact />
+          <NewsAndInsights />
         </Layout>
     )
 }

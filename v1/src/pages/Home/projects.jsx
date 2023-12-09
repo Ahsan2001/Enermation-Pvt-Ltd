@@ -23,12 +23,12 @@ const Projects = () => {
                         <h3>Cloud Apartments — The Future Of Apartments.</h3>
                         <p>Branding & Identity, Websites & Digital Platforms</p>
                     </div>
-                    <div className="items-main" data-aos="fade-up"  data-aos-delay="300">
+                    <div className="items-main" data-aos="fade-up"  data-aos-delay="200">
                         <img src={item3} alt="item1" />
                         <h3>TakeUp — Adaptive Hotel Pricing Platform.</h3>
                         <p>Branding & Identity, Websites & Digital Platforms</p>
                     </div>
-                    <div className="items-main" data-aos="fade-up"  data-aos-delay="200">
+                    <div className="items-main" data-aos="fade-up" >
                         <img src={item4} alt="item1" />
                         <h3>Highline — Revolutionizing The World Of Credit.</h3>
                         <p>Branding & Identity, Websites & Digital Platforms</p>
