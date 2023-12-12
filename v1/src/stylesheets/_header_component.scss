@@ -1,11 +1,13 @@
 header {
-    background: #1f1f1f;
-    padding-top: 40px;
+    background: #000;
+    padding-top: 30px;
     h3{
         color: #fff;
     }
     h2{
         color: #fff;
+        line-height: 17px;
+        margin: 20px 0;
     }
 
     header h2 {
@@ -15,12 +17,12 @@ header {
         font-size: 25px;
         font-family: 'Gt-Haptik-Medium';
     }
-    & nav {
+    & nav  {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        & ul {
+        & ul.header-menu  {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -28,18 +30,59 @@ header {
 
             & li {
                 margin: 10px;
-                padding: 10px ;
-
+                padding:  30px 10px 30px ;
+                position: relative;
                 & a {
                     text-decoration: none;
                     font-size: 12px;
                     color: #fff;
+                    display: inline-block;
+                    text-decoration: none;
                 }
+
+                & a:not(:last-child):after {
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: #ffffff;
+                    transition: width .3s;
+                }
+
             }
 
-            & li:last-child {
+            & li:hover a::after {
+                width: 100%;
+                //transition: width .3s;
+            }
+
+            & li.product-header:hover .dropdown-main.product-drop-down{
+                opacity: 1;
+                visibility: visible;
+            }
+
+            & li.industries-header:hover .dropdown-main.industries-drop-down{
+                opacity: 1;
+                visibility: visible;
+            }
+
+            & li.platforms-header:hover .dropdown-main.platforms-drop-down{
+                opacity: 1;
+                visibility: visible;
+            }
+
+            & li.bussiness-header:hover .dropdown-main.business-drop-down{
+                opacity: 1;
+                visibility: visible;
+            }
+
+            & > li:last-child {
                 border: solid 2px #ffffff;
                 padding: 15px 30px ;
+                background: linear-gradient(to left,#ffffff 50%, #000000 50%);
+                background-position: left bottom;
+                transition: all .6s ease-out;
+                background-size: 200% 100%;
                 & a{
                     display: flex;
                     justify-content: space-between;
@@ -50,11 +93,138 @@ header {
                     }
                 }
             }
+
+            & li:last-child:hover{
+                border: solid 2px #000;
+                cursor: pointer;
+                background-position: right bottom;
+                 a {
+                    color: #000;
+                 }
+            } 
+              
+
+
         }
+    }
+
+
+    & .logo-main-wrap img{
+            width: 120px;
+
     }
 }
 
 
+
+.dropdown-main{
+    width: 550px;
+    position: absolute;
+    background: #fff;
+    top: 80px;
+    opacity: 0;
+    left: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.5s cubic-bezier(0.58, 0, 0.06, 0.98);
+    transition: all 0.5s cubic-bezier(0.58, 0, 0.06, 0.98);
+    z-index: 2;
+    overflow: hidden;
+
+    & .inner-main-wrap {
+        display: flex;
+        height: 70vh;
+        & .left-side-main{
+            flex: 2;
+            background: rgb(255, 255, 255);
+            & h4{
+                font-weight: 700;
+                padding: 20px 0px 20px 30px;
+                font-size: 20px;
+            }
+
+            & ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                & li{
+                    padding: 5px 10px 5px 30px;
+                    margin: 0 0 8px 0;
+                    line-height: 10px;
+                    width: 100%;
+                    background-color: transparent;
+                    a {
+                        color: #000;
+                        padding: 0;
+                        font-size: 16px;
+                        text-transform: capitalize;
+                        font-weight: 500;
+                    }
+                }
+
+                & li:last-child{
+                    border: none;
+                    padding: 5px 10px 5px 30px;
+                }
+
+            }
+
+
+            & a.view-all-btn {
+                background: #c2c2c2;
+                color: #000;
+                font-weight: 700;
+                display: inline-flex;
+                width: 100%;
+                -webkit-box-align: center;
+                padding: 20px 30px ;
+                -ms-flex-align: center;
+                align-items: center;
+                font-size: 16px;
+                -webkit-transition: .25s all ease;
+                transition: .25s all ease;
+                position: absolute;
+                bottom: 0;
+                width: 66.6%;
+            }
+
+        }
+
+        & .right-side-main{
+            flex: 1;
+            background: rgb(0, 0, 0);
+            color: #fff;
+
+            .box-content.b2,
+            .box-content.b3,
+            .box-content.b4,
+            .box-content.b5,
+            .box-content.b6,
+            .box-content.b7,
+            .box-content.b8,
+            .box-content.b9,
+            .box-content.b10,
+            .box-content.b11,
+            .box-content.b12,
+            .box-content.b13,
+            .box-content.b14{
+                display: none;
+            }
+
+            .box-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                height: 70%;
+                justify-content: center;
+                padding: 20px;
+                gap: 25px;
+            }
+        }
+    }
+}
 
 
 

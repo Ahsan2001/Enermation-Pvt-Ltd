@@ -5,7 +5,7 @@ import Wave from 'react-wavify';
 const WaveEffect = () => {
   return (
     <div className="wave-container">
-      <Wave fill='#1f1f1f'
+      <Wave fill='#000'
         paused={false}
         style={{ display: 'flex' }}
         options={{

@@ -1,6 +1,9 @@
 section.contact-module-main-wrap {
-    background: url(src/assets/contact/1.jpg);
+    background-image: url("./assets/contact/1.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     -webkit-transition: all 1s cubic-bezier(0.58, 0, 0.06, 0.98);
     transition: all 1s cubic-bezier(0.58, 0, 0.06, 0.98);
@@ -32,6 +35,7 @@ section.contact-module-main-wrap {
             letter-spacing: normal;
             line-height: 1.81;
             color: rgb(247, 247, 247);
+            margin: 20px 0;
         }
 
         & a {
@@ -41,13 +45,52 @@ section.contact-module-main-wrap {
             line-height: 1.81;
             text-decoration: none;
             color: rgb(247, 247, 247);
+            position: relative;
+            padding: 14px 0 0;
+            & span.custom-arrow{
+                border: 1px solid #fff;
+                border-radius: 50%;
+                /* padding: 20px; */
+                height: 50px;
+                width: 50px;
+                position: absolute;
+                right: -110px;
+                top: 1px;
+            }
+            & span.custom-arrow:before {
+                content: "";
+                width: 56px;
+                height: 2px;
+                background: #fff;
+                position: absolute;
+                top: 50%;
+                margin-top: -1px;
+                right: 65%;
+                -webkit-transition: all .3s ease;
+                transition: all .3s ease;
+            }
+        
+            & span.custom-arrow:after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-color: transparent transparent transparent #fff;
+                position: absolute;
+                top: 50%;
+                margin-top: -5px;
+                right: 55%;
+                -webkit-transition: all .3s ease;
+                transition: all .3s ease;
+            }
         }
         &  .movingBg {
             height: 4px;
             width: 40px;
-            background: rgb(255, 225, 0);
+            background: rgb(255, 255, 255);
             position: absolute;
-            left: 0;
+            left: 12%;
             bottom: 90px;
             transition: left cubic-bezier(0.88, -0.35, 0.565, 1.35) 0.4s;
         }
@@ -74,24 +117,23 @@ section.contact-module-main-wrap {
 
 
 section.contact-module-main-wrap.one {
-    background: url(src/assets/contact/1.jpg);
+    background-image: url("./assets/contact/1.jpg");
 }
 
 
 section.contact-module-main-wrap.two {
-    background: url(src/assets/contact/2.jpg);
+    background-image: url("./assets/contact/2.jpg");
 }
 
 
 section.contact-module-main-wrap.three {
-    background: url(src/assets/contact/3.jpg);
+    background-image: url("./assets/contact/3.jpg");
 }
 
 
 section.contact-module-main-wrap.four {
-    background: url(src/assets/contact/4.jpg);
+    background-image: url("./assets/contact/4.jpg");
 }
-
 
 
 

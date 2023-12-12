@@ -1,10 +1,17 @@
+.customBg{
+    background: hsl(222.3deg 93.85% 12.75%);
+    background-attachment: fixed;
+    color: #Fff;
+}
+
 .bg-wrapper {
-    background-image: url(/src/assets/home/home-revolve-background.jpg);
+    background-image: url("./assets/home/home-revolve-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     margin-top: -50px;
 }
 
@@ -402,28 +409,28 @@ section.specialzed {
 }
 
 section.specialzed.default {
-    background-image: url(src/assets/specialized/default.jpg);
+    background-image: url("./assets/specialized/default.jpg");
     opacity: 0.8;
 }
 
 section.specialzed.branding {
-    background-image: url(src/assets/specialized/4.jpg);
+    background-image: url("./assets/specialized/4.jpg");
 }
 
 section.specialzed.website {
-    background-image: url(src/assets/specialized/2.jpg);
+    background-image: url("./assets/specialized/2.jpg");
 }
 
 section.specialzed.web3 {
-    background-image: url(src/assets/specialized/3.jpg);
+    background-image: url("./assets/specialized/3.jpg");
 }
 
 section.specialzed.eCommerce {
-    background-image: url(src/assets/specialized/5.jpg);
+    background-image: url("./assets/specialized/5.jpg");
 }
 
 section.specialzed.VR {
-    background-image: url(src/assets/specialized/1.jpg);
+    background-image: url("./assets/specialized/1.jpg");
 }
 
 section.fourth-module-main-wrap {
@@ -702,3 +709,74 @@ section.six-module-main-wrap {
 
     }
 }
+
+
+.for-relative{
+    position: relative;
+}
+
+h1.banner-heading{
+    position: absolute;
+    top: 200px;
+    left: 0%;
+    color: #fff;
+    font-size: 50px;
+}
+
+.cta-discover {
+    position: absolute;
+    top: 400px;
+    left: 0%;
+    color: #fff;
+    font-size: 50px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #292929;
+        font-size: 40px;
+    }
+
+
+    & span.custom-arrow{
+        border: 1px solid #fff;
+        border-radius: 50%;
+        /* padding: 20px; */
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: -110px;
+        top: 1px;
+    }
+    & span.custom-arrow:before {
+        content: "";
+        width: 56px;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        margin-top: -1px;
+        right: 65%;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+
+    & span.custom-arrow:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-color: transparent transparent transparent #fff;
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+        right: 55%;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+}
+
+

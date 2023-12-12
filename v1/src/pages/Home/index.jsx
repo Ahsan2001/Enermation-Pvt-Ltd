@@ -1,24 +1,33 @@
 import React from 'react';
-import { Contact, Layout } from '../../components';
+import { Contact, Layout, TextAnimation } from '../../components';
 import Subscription from './subscription';
 import Projects from './projects';
 import Specialized from './specialized';
 import Brands from './brands';
 import NewsAndInsights from './news-&-insight';
+import Banner from './banner';
+
+
 
 const Home = () => {
-    return (
-        <Layout>
-          <div className="bg-wrapper">
-          </div>
-          <Subscription />
-          <Projects />
-          <Specialized />
-          <Brands />
-          <Contact />
-          <NewsAndInsights />
-        </Layout>
-    )
+  return (
+    <>
+
+      {/* <TextAnimation /> */}
+      <Layout>
+        <Banner />
+        <Subscription />
+        <Projects />
+        <Specialized />
+        <Brands />
+        <Contact />
+        <NewsAndInsights />
+
+
+      </Layout>
+    </>
+
+  )
 }
 
 export default Home

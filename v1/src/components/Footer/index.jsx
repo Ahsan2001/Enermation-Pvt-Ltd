@@ -1,7 +1,8 @@
 import React from 'react'
 import ContentWrapper from '../ContentWrapper'
 import { Link } from 'react-router-dom'
-import Wave from 'react-wavify'
+import Wave from 'react-wavify';
+import logo from "../../assets/home/logo.png"
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
 
         <div className="wave-position-set">
 
-          <Wave fill='#181819'
+          <Wave fill='#000'
             paused={false}
             style={{ display: 'flex' }}
             options={{
@@ -33,7 +34,8 @@ const Footer = () => {
         <div className="footer-main-wrapper">
 
           <div className="left-side-wrapper">
-            <h2>Company Logo</h2>
+            {/* <h2>Company Logo</h2> */}
+            <img src={logo} alt="" />
             <p>© 2023 RNO1, LLC livethebrandTM <br /> Made on the West Coast </p>
           </div>
           <div className="right-side-wrapper">
