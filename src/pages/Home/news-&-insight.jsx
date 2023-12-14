@@ -37,7 +37,7 @@ const NewsAndInsights = () => {
                         <div className="item">
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l1} />
+                                    <img src={l1} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>
@@ -46,7 +46,7 @@ const NewsAndInsights = () => {
                             </div>
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l2} />
+                                    <img src={l2} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>
@@ -55,37 +55,7 @@ const NewsAndInsights = () => {
                             </div>
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l3} />
-                                </div>
-                                <div className="content-box">
-                                    <h6>Client Feature | Oct 10</h6>
-                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className='item-main-wrap'>
-                                <div className="image-box">
-                                    <img src={l1} />
-                                </div>
-                                <div className="content-box">
-                                    <h6>Client Feature | Oct 10</h6>
-                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
-                                </div>
-                            </div>
-                            <div className='item-main-wrap'>
-                                <div className="image-box">
-                                    <img src={l2} />
-                                </div>
-                                <div className="content-box">
-                                    <h6>Client Feature | Oct 10</h6>
-                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
-                                </div>
-                            </div>
-                            <div className='item-main-wrap'>
-                                <div className="image-box">
-                                    <img src={l3} />
+                                    <img src={l3} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>
@@ -97,7 +67,7 @@ const NewsAndInsights = () => {
                         <div className="item">
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l1} />
+                                    <img src={l1} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>
@@ -106,7 +76,7 @@ const NewsAndInsights = () => {
                             </div>
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l2} />
+                                    <img src={l2} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>
@@ -115,7 +85,37 @@ const NewsAndInsights = () => {
                             </div>
                             <div className='item-main-wrap'>
                                 <div className="image-box">
-                                    <img src={l3} />
+                                    <img src={l3} alt="a1"/>
+                                </div>
+                                <div className="content-box">
+                                    <h6>Client Feature | Oct 10</h6>
+                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className='item-main-wrap'>
+                                <div className="image-box">
+                                    <img src={l1} alt="a1"/>
+                                </div>
+                                <div className="content-box">
+                                    <h6>Client Feature | Oct 10</h6>
+                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
+                                </div>
+                            </div>
+                            <div className='item-main-wrap'>
+                                <div className="image-box">
+                                    <img src={l2} alt="a1"/>
+                                </div>
+                                <div className="content-box">
+                                    <h6>Client Feature | Oct 10</h6>
+                                    <p>Hedonova Partners with RNO1 as Global Experience Design Agency.</p>
+                                </div>
+                            </div>
+                            <div className='item-main-wrap'>
+                                <div className="image-box">
+                                    <img src={l3} alt="a1"/>
                                 </div>
                                 <div className="content-box">
                                     <h6>Client Feature | Oct 10</h6>

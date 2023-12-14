@@ -1,27 +1,28 @@
 import React from 'react';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn,
+   MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 
 const TextAnimation = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const FadeUp = batch(Fade(), Move(), Sticky());
+  // const FadeUp = batch(Fade(), Move(), Sticky());
   return (
 
-    <div className="customBg">
+    // <div className="customBg">
       <ScrollContainer>
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <span style={{ fontSize: "30px" }}></span>
+            <span style={{ fontSize: "30px" }}>Welcome ✨</span>
           </Animator>
         </ScrollPage>
         <ScrollPage>
           <Animator animation={ZoomInScrollOut}>
-            <span style={{ fontSize: "40px" }}>Enermation Pvt ✨</span>
+            <span style={{ fontSize: "40px" }}>Enermation Pvt Ltd✨</span>
           </Animator>
         </ScrollPage>
 
       </ScrollContainer>
-    </div>
+    // </div>
   );
 };
 

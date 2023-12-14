@@ -1,5 +1,5 @@
 import React from 'react';
-import { Contact, Layout, TextAnimation } from '../../components';
+import { Contact, Layout } from '../../components';
 import Subscription from './subscription';
 import Projects from './projects';
 import Specialized from './specialized';
@@ -22,8 +22,6 @@ const Home = () => {
         <Brands />
         <Contact />
         <NewsAndInsights />
-
-
       </Layout>
     </>
 

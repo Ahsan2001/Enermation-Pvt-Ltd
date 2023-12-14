@@ -5,7 +5,7 @@
 }
 
 .bg-wrapper {
-    background-image: url("./assets/home/home-revolve-background.jpg");
+    background-image: url("../assets/home/home-revolve-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -350,8 +350,8 @@ section.specialzed {
             letter-spacing: -0.5px;
             line-height: 1.25;
             text-decoration: none;
-            -webkit-transition: opacity .2s ease-in-out, -webkit-transform .4s ease;
-            transition: opacity .2s ease-in-out, -webkit-transform .4s ease;
+            -webkit-transition: all 0.5s cubic-bezier(0.58, 0, 0.06, 0.98);
+            transition: all 0.5s cubic-bezier(0.58, 0, 0.06, 0.98);
             width: 100%;
             font-size: 28px;
             padding: 25px 0;
@@ -409,28 +409,28 @@ section.specialzed {
 }
 
 section.specialzed.default {
-    background-image: url("./assets/specialized/default.jpg");
+    background-image: url("../assets/specialized/default.jpg");
     opacity: 0.8;
 }
 
 section.specialzed.branding {
-    background-image: url("./assets/specialized/4.jpg");
+    background-image: url("../assets/specialized/4.jpg");
 }
 
 section.specialzed.website {
-    background-image: url("./assets/specialized/2.jpg");
+    background-image: url("../assets/specialized/2.jpg");
 }
 
 section.specialzed.web3 {
-    background-image: url("./assets/specialized/3.jpg");
+    background-image: url("../assets/specialized/3.jpg");
 }
 
 section.specialzed.eCommerce {
-    background-image: url("./assets/specialized/5.jpg");
+    background-image: url("../assets/specialized/5.jpg");
 }
 
 section.specialzed.VR {
-    background-image: url("./assets/specialized/1.jpg");
+    background-image: url("../assets/specialized/1.jpg");
 }
 
 section.fourth-module-main-wrap {

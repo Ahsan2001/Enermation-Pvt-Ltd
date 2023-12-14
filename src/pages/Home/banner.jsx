@@ -1,7 +1,7 @@
 import React from 'react'
-import { ContentWrapper, TextAnimation3 } from '../../components'
+import { ContentWrapper } from '../../components'
 import { Link } from 'react-router-dom';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
+// import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 
 const Banner = () => {
