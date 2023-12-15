@@ -25,9 +25,13 @@ body {
     position: relative;
 }
 
+
 main{
     min-height: 50vh;
 }
+
+
+
 
 .contentWrapper {
     width: 100%;

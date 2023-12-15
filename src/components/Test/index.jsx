@@ -1,32 +1,32 @@
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
-const Test = (props) => {
+// const Test = (props) => {
   
-  const text = props.item;
+//   const text = props.item;
 
-  const letterVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
+//   const letterVariants = {
+//     hidden: { opacity: 0, y: 20 },
+//     visible: { opacity: 1, y: 0 },
+//   };
 
-  return (
-    <div>
-     {text.split('').map((letter, index) => (
-        <motion.span
-          key={index}
-          variants={letterVariants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: index * 0.1 }}
-        >
-         {letter}
-        </motion.span>
-      ))}
-    </div>
-  )
-}
+//   return (
+//     <div>
+//      {/* {text.split('').map((letter, index) => ( */}
+//         <motion.span
+//           // key={index}
+//           variants={letterVariants}
+//           initial="hidden"
+//           animate="visible"
+//           transition={{ delay:  0.1 }}
+//         >
+//          {text}
+//         </motion.span>
+//       {/* ))} */}
+//     </div>
+//   )
+// }
 
-export default Test;
+// export default Test;
 
 
 
