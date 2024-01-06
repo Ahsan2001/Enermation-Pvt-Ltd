@@ -17,7 +17,6 @@ section.contact-module-main-wrap {
             font-family: "GT-Haptik-Medium";
             font-size: 55px;
             font-weight: 400;
-            height: 68.2917px;
             letter-spacing: -2px;
             line-height: 63.25px;
 
@@ -138,3 +137,20 @@ section.contact-module-main-wrap.four {
 
 
 
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+    section.contact-module-main-wrap .content {
+        padding: 100px 0px 0px;
+    }
+
+  
+
+
+}

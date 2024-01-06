@@ -790,12 +790,21 @@ h1.banner-heading{
 
 @media (max-width: 991px){
 
+
+
+    section.fourth-module-main-wrap .logo-main-wraps img {
+        width: 160px;
+    }
+
+    section.six-module-main-wrap .custom-slider-main-wrap .item {
+        flex-direction: column;
+    }
+
     section.second-module-main-wrap .inner-main-wrapper {
-    
         gap: 0px;
         flex-wrap: wrap;
-    
     }
+
     h1.banner-heading {
         color: #fff;
         font-size: 27px;

@@ -29,13 +29,13 @@ const Testimonial = () => {
         <div className='custom-slider-main-wrap'>
             <Carousel swipeable={true} infiniteLoop={true}
                 showIndicators={false} showThumbs={false}
-                transitionMode="fade"    emulateTouch={true}
-                renderArrowPrev={(onClickHandler) => <CustomLeftArrow onClick={onClickHandler} /> }
-                renderArrowNext={(onClickHandler) => <CustomRightArrow onClick={onClickHandler} /> }
+                transitionMode="fade" emulateTouch={true}
+                renderArrowPrev={(onClickHandler) => <CustomLeftArrow onClick={onClickHandler} />}
+                renderArrowNext={(onClickHandler) => <CustomRightArrow onClick={onClickHandler} />}
             >
                 <div className='item-main-wrap'>
                     <div className="image-box">
-                        <img src={l1} alt="a1"/>
+                        <img src={l1} alt="a1" />
                     </div>
                     <div className="content-box">
                         <p>"RNO1's Design-first mindset was so in line with our platform goals at Wand, we were beyond excited to see them execute on our vision. The team has an amazing affinity for design and over-delivers on CX (Customer Experience)!"</p>
@@ -44,7 +44,7 @@ const Testimonial = () => {
                 </div>
                 <div className='item-main-wrap'>
                     <div className="image-box">
-                        <img src={l2} alt="a1"/>
+                        <img src={l2} alt="a1" />
                     </div>
                     <div className="content-box">
                         <p>"Working with RNO1 has been a pleasure! Our site was buzzing with happy buyers for our appearance on the show 'Shark Tank', and we're now building out our fully re-vamped eCommerce experience!"</p>
@@ -53,7 +53,7 @@ const Testimonial = () => {
                 </div>
                 <div className='item-main-wrap'>
                     <div className="image-box">
-                        <img src={l3} alt="a1"/>
+                        <img src={l3} alt="a1" />
                     </div>
                     <div className="content-box">
                         <p>"RNO1's Design-first mindset was so in line with our platform goals at Wand, we were beyond excited to see them execute on our vision. The team has an amazing affinity for design and over-delivers on CX (Customer Experience)!"</p>

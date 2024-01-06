@@ -3,14 +3,14 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { CgArrowLongRight } from "react-icons/cg";
 import WaveEffect from './wave';
 import ContentWrapper from '../ContentWrapper';
-import Test from '../Test';
+// import Test from '../Test';
 // import TextAnimation from '../Test/index2';
 // import TextAnimation3 from '../Test/index3';
 // import ProductDropdown from './product-dropdown';
 import IndustriesDropdown from './industries-dropdown';
 import BusinessDropdown from './business-dropdown';
 import PlatformsDropdown from './platforms-dropdown';
-import logo from "../../assets/home/logo.png";
+import logo from "../../assets/home/logo.svg";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 
@@ -83,7 +83,7 @@ const Header = () => {
                   {/* <li className='product-header'><Link to="/product">PRODUCTS </Link>
                     <ProductDropdown />
                   </li> */}
-                  <li className='industries-header'><Link to="/">INDUSTRIES</Link>
+                  <li className='industries-header'><Link to="/product">INDUSTRIES</Link>
                     <IndustriesDropdown />
                   </li>
                   <li className='platforms-header'><Link to="/">PLATFORMS</Link>
@@ -111,16 +111,16 @@ const Header = () => {
 
                     <div className="mobile-main-main-wrap">
                       <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">INDUSTRIES</a></li>
-                        <li><a href="">PLATFORMS</a></li>
-                        <li><a href="">BUSINESS UNIT</a></li>
-                        <li><a href="">PARTNER</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/">INDUSTRIES</a></li>
+                        <li><a href="/">PLATFORMS</a></li>
+                        <li><a href="/">BUSINESS UNIT</a></li>
+                        <li><a href="/">PARTNER</a></li>
+                        <li><a href="/">ABOUT</a></li>
+                        <li><a href="/">CONTACT</a></li>
                       </ul>
                     </div>
-</>
+                    </>
                   ) : (
                     <SlMenu onClick={openMobileMenu} />
                   )}

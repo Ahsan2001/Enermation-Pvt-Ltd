@@ -2,7 +2,7 @@ import React from 'react'
 import ContentWrapper from '../ContentWrapper'
 import { Link } from 'react-router-dom'
 import Wave from 'react-wavify';
-import logo from "../../assets/home/logo.png"
+import logo from "../../assets/home/logo.svg"
 
 const Footer = () => {
   return (
