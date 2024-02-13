@@ -83,24 +83,22 @@ const Header = () => {
                   {/* <li className='product-header'><Link to="/product">PRODUCTS </Link>
                     <ProductDropdown />
                   </li> */}
-                  <li className='industries-header'><Link to="/product">INDUSTRIES</Link>
+                  {/* <li className='industries-header'><Link to="/product">INDUSTRIES</Link>
                     <IndustriesDropdown />
-                  </li>
-                  <li className='platforms-header'><Link to="/">PLATFORMS</Link>
+                  </li> */}
+                  <li className='platforms-header'><Link to="/platforms">PLATFORMS</Link>
                     <PlatformsDropdown />
                   </li>
-                  <li className='bussiness-header'><Link to="/">BUSINESS UNIT</Link>
+                  <li className='bussiness-header'><Link to="/bussiness-unit">BUSINESS UNIT</Link>
                     <BusinessDropdown />
                   </li>
-                  <li><Link to="/">PARTNER</Link>
-
+                  <li><Link to="/partners">PARTNER</Link>
                     <div className=""></div>
                   </li>
-                  <li><Link to="/">ABOUT</Link>
+                  <li><Link to="/about">ABOUT</Link>
                     <div className=""></div>
-
                   </li>
-                  <li><Link to="/">CONTACT <CgArrowLongRight /></Link>
+                  <li><Link to="/contact">CONTACT <CgArrowLongRight /></Link>
                   </li>
                 </ul>
 
@@ -108,16 +106,15 @@ const Header = () => {
                   {mobileMenu ? (
                     <>
                     <VscChromeClose onClick={openMobileMenu} />
-
                     <div className="mobile-main-main-wrap">
                       <ul>
                         <li><a href="/">HOME</a></li>
-                        <li><a href="/">INDUSTRIES</a></li>
-                        <li><a href="/">PLATFORMS</a></li>
-                        <li><a href="/">BUSINESS UNIT</a></li>
-                        <li><a href="/">PARTNER</a></li>
-                        <li><a href="/">ABOUT</a></li>
-                        <li><a href="/">CONTACT</a></li>
+                        {/* <li><a href="/">INDUSTRIES</a></li> */}
+                        <li><a href="/platforms">PLATFORMS</a></li>
+                        <li><a href="/bussiness-unit">BUSINESS UNIT</a></li>
+                        <li><a href="/partners">PARTNER</a></li>
+                        <li><a href="/about">ABOUT</a></li>
+                        <li><a href="/contact">CONTACT</a></li>
                       </ul>
                     </div>
                     </>
@@ -134,10 +131,12 @@ const Header = () => {
         <div className="header-heading-main">
           <ContentWrapper>
           <h2  data-aos="fade-left" data-aos-delay="300">
-             Subscription—Agency driving the future of tech and commerce brands across platforms and places. 
+             {/* Subscription—Agency driving the future of tech and commerce brands across platforms and places.  */}
+             Find the solutions you need to run your business better, faster, and with continuous innovation.
+
+
           </h2>
           </ContentWrapper>
-
         </div>
 
         {/* wave line in header  */}

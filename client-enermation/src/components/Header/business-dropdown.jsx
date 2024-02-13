@@ -14,14 +14,14 @@ const BusinessDropdown = () => {
             <h4>Business Units</h4>
             <ul>
                 <li className='l1'><Link to="/"> Apps Unit</Link></li>
-                <li className='l2'><Link to="/"> Application Development Unit</Link></li>
+                {/* <li className='l2'><Link to="/"> Application Development Unit</Link></li> */}
                 <li className='l3'><Link to="/"> SaaS Unit</Link></li>
                 <li className='l4'><Link to="/"> B2B Marketplace Unit</Link></li>
                 <li className='l5'><Link to="/"> Design Unit</Link></li>
-                <li className='l6'><Link to="/"> Education Unit</Link></li>
-                <li className='l7'><Link to="/"> Research Unit</Link></li>
+                {/* <li className='l6'><Link to="/"> Education Unit</Link></li> */}
+                {/* <li className='l7'><Link to="/"> Research Unit</Link></li> */}
                 <li className='l8'><Link to="/"> Standardization Unit</Link></li>
-                <li className='l9'><Link to="/"> IT Devices Unit</Link></li>
+                {/* <li className='l9'><Link to="/"> IT Devices Unit</Link></li> */}
                 <li className='l10'><Link to="/"> IT Services Unit</Link></li>
             </ul>
 

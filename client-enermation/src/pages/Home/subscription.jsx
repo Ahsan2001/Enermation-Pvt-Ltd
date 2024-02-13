@@ -10,7 +10,7 @@ const Subscription = () => {
     <section className='second-module-main-wrap'>
           <ContentWrapper>
             <h1 data-aos="fade-up" >
-              Our Unique Subscription Models help Future-First Companies to radically differentiate & deliver on growth throughout their journey.
+            Explore our industry portfolio and find the solutions you need to run your business better, faster, and with continuous innovation.
             </h1>
 
 

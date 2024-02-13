@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className="footer-top-wrapper">
           <h1>Let’s make <span>waves.</span> </h1>
-          <Link to="/">START A PARTNERSHIP <span className='custom-arrow'></span></Link>
+          <Link to="/partners">START A PARTNERSHIP <span className='custom-arrow'></span></Link>
         </div>
 
         <div className="for-padding"></div>

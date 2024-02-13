@@ -7,9 +7,6 @@ const Products = () => {
   return (
     <Layout>
       <h1 className='ahsan'>Products page testing</h1>
-
-
-
     </Layout>
   )
 }
